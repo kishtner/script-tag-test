@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Kistner: das hier wird nicht gehen. Kommentieren Sie mal die nächsten 2 Zeilen aus (// davor entfernen)
+        //const div = document.querySelector("div");
+        //div.innerHTML = "Works?";
+
+        // Kistner: das hier wird dann gehen Wir warten auf ein Event, das erst kommt, wenn alles geladen ist. Kommentieren Sie die nächsten 4 Zeilen aus (// davor entfernen)
+        //document.addEventListener("DOMContentLoaded", (event) => {
+        //    const div = document.querySelector("div");
+        //    div.innerHTML = "Works!";
+        //});
+
+    </script>
+
+    <!-- Bei externen Scripts gibt es andere Wege, bspw. das defer Attribut. Skript läuft erst wenn alles geladen ist, ohne dass sie auf ein Event hören müssen -->
+    <script  defer src="./script.js"></script>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
